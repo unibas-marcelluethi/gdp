@@ -25,7 +25,7 @@ RUN adduser --disabled-password \
     $NB_USER
 
 RUN apt-get update
-RUN apt-get install -y python3-pip
+RUN apt-get install -y python3-pip vim-tiny
 
 RUN pip3 install --no-cache-dir notebook==5.5.* 
 
@@ -45,6 +45,16 @@ RUN chown -R $NB_UID $HOME
 
 USER $NB_USER
 
-WORKDIR $HOME
+RUN chmod 700 $HOME/.ssh
+RUN chmod 700 $HOME/.ssh/config
+RUN chmod 700 $HOME/.ssh/prog-students
+
+
+RUN cd $HOME; git clone git@bitbucket.org:gravis-unibas/programmieren.git
+
+USER $NB_USER
+
+WORKDIR $HOME/programmieren/
+CMD ["git",  "clone git@bitbucket.org:gravis-unibas/programmieren.git"]
 CMD ["jupyter", "notebook", "--ip", "0.0.0.0"]
 
