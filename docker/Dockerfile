@@ -52,9 +52,7 @@ RUN chmod 700 $HOME/.ssh/prog-students
 
 RUN cd $HOME; git clone git@bitbucket.org:gravis-unibas/programmieren.git
 
-USER $NB_USER
+WORKDIR $HOME
 
-WORKDIR $HOME/programmieren/
-CMD ["git",  "clone git@bitbucket.org:gravis-unibas/programmieren.git"]
-CMD ["jupyter", "notebook", "--ip", "0.0.0.0"]
+CMD ["./start-jupyter.sh"]
 
