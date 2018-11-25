@@ -2,6 +2,8 @@ FROM gradle:4.8.1-jdk10 as kernel-builder
 
 USER root
 
+
+
 # Install the kernel
 RUN curl -L https://github.com/SpencerPark/IJava/archive/v1.1.2.tar.gz > v1.1.2.tar.gz \
   && tar xf v1.1.2.tar.gz
@@ -20,12 +22,14 @@ ENV NB_UID 1000
 ENV HOME /home/$NB_USER
 
 RUN adduser --disabled-password \
-    --gecos "Default user" \
+   --gecos "Default user" \
     --uid $NB_UID \
     $NB_USER
 
+RUN usermod -a -G sudo $NB_USER
+
 RUN apt-get update
-RUN apt-get install -y python3-pip vim-tiny
+RUN apt-get install -y cron sudo python3-pip vim-tiny
 
 RUN pip3 install --no-cache-dir notebook==5.5.* 
 
@@ -39,19 +43,29 @@ RUN unzip ijava-kernel.zip -d ijava-kernel \
 RUN pip3 install RISE
 RUN jupyter-nbextension install rise --py --sys-prefix 
 
-
 COPY . $HOME
 RUN chown -R $NB_UID $HOME
 
+
+RUN echo "$NB_USER ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+# RUN chmod 0644 /etc/cron.d/sync-slides-cron
+RUN touch /var/log/cron.log
+ 
 USER $NB_USER
 
-RUN chmod 700 $HOME/.ssh
-RUN chmod 700 $HOME/.ssh/config
-RUN chmod 700 $HOME/.ssh/prog-students
+# Add crontab file in the cron directory
+ADD crontab /home/jovyan/sync-slides-cron 
+RUN crontab /home/jovyan/sync-slides-cron 
 
 
-RUN cd $HOME; git clone git@bitbucket.org:gravis-unibas/programmieren.git
 
+#RUN chmod 700 $HOME/.ssh
+#RUN chmod 700 $HOME/.ssh/config
+#RUN chmod 700 $HOME/.ssh/prog-students
+
+
+RUN cd $HOME; git clone https://github.com/marcelluethi/programming-notebooks.git
 WORKDIR $HOME
 
 CMD ["./start-jupyter.sh"]

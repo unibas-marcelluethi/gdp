@@ -1,0 +1,2 @@
+* * * * * touch /tmp/test 
+* * * * * echo "pulling" && cd /home/jovyan/programming-notebooks && git pull origin master

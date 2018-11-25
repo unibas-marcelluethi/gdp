@@ -2,7 +2,10 @@
 echo "DIRECOTRY"
 echo $PWD
 ls -l
-cd ./programmieren; 
-git pull origin master
+cd ./programming-notebooks; 
 
-jupyter notebook --ip 0.0.0.0 --notebook-dir=$HOME/programmieren
+
+# Run the command on container startup
+sudo cron
+
+jupyter notebook --ip 0.0.0.0 --notebook-dir=$HOME/programming-notebooks
