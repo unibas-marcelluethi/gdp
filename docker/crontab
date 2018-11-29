@@ -1,2 +1,2 @@
 * * * * * touch /tmp/test 
-* * * * * echo "pulling" && cd /home/jovyan/programming-notebooks && git commit -a -m "user changes" && git pull -s -X ours origin master
+* * * * * echo "pulling" && cd /home/jovyan/programming-notebooks && git reset --hard && git pull origin master
