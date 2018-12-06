@@ -67,5 +67,15 @@ Starten Sie nun einen Browser und geben Sie folgende URL ein
 http://localhost:8888
 ```
 
+
 Falls Sie folgende Webseite sehen, war die Installation erfolgreich.
 ![jupyter](images/jupyter.png)
+
+
+*Achtung:* Falls Sie nicht direkt Docker, sondern Docker Toolbox verwenden, müssen Sie stattdessen folgende URL eingeben:
+```
+http://192.168.99.100:8888 
+```
+
+Der Grund dafür ist, dass Docker Toolbox nicht direkt auf dem Hostsystem, sondern in einer separaten virtuellen Maschine läuft (welche standardmässig die IP Adresse 192.168.99.100 hat).
+
