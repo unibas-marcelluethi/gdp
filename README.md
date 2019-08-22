@@ -4,4 +4,4 @@
 
 Dieses Repository enthält Jupyer Notebooks für den Kurs ["Grundagen der Programmierung (10890-01)"](https://dmi.unibas.ch/de/studium/computer-science-informatik/lehrangebot-hs19/vorlesung-grundlagen-der-programmierung/) der [Universität Basel](https://www.unibas.ch). 
 
-Eine Jupyter Umgebung kann mittels obigem Binder Badge gestartet werden. 
+Um die Jupyter notebooks zu nutzen, folgen Sie bitte dieser [Installationsanleitung](./installation.md).
