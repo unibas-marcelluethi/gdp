@@ -1,0 +1,1 @@
+*/5 * * * * echo "pulling" && cd /home/jovyan/programming-notebooks && git commit -a -m "saving local modifications" && git fetch origin && git merge -s ours origin/master

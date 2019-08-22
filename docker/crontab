@@ -1,2 +1,0 @@
-* * * * * touch /tmp/test 
-* * * * * echo "pulling" && cd /home/jovyan/programming-notebooks && git reset --hard && git pull origin master
