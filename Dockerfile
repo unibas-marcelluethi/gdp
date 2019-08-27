@@ -42,7 +42,8 @@ WORKDIR $HOME
 # When we deploy on docker locally, we need to manually clone the github repo and install 
 # a cron job for syncing. If we run it using binder, it is done for us. 
 # Uncomment the following lines for preparing the local docker container
-
+# RUN git config --global user.name "programmer"
+# RUN git config --global user.email notused@notused.ch
 # RUN cd $HOME; git clone https://github.com/unibas-marcelluethi/programmieren-notebooks.git
 # RUN crontab $HOME/gitsynccron 
 
