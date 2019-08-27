@@ -1,1 +1,1 @@
-*/5 * * * * echo "pulling" && cd /home/jovyan/programming-notebooks && git commit -a -m "saving local modifications" && git fetch origin && git merge -s ours origin/master
+*/5 * * * * echo "pulling" && cd /home/jovyan/programmieren-notebooks && git commit -a -m "saving local modifications" && git fetch origin && git merge -s ours origin/master -m "merging changes with strategy ours"
