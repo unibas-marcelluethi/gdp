@@ -29,10 +29,12 @@ docker pull marcelluethi/programmieren-notebooks:1.3
 
 *Falls Sie in diesem Schritt eine Fehlermeldung bekommen, könnte es daran liegen, dass Docker nicht gestartet ist. Unter Windows und MacOS starten Sie Docker, in dem Sie die Docker Anwendung aufrufen (Sie finden diese im Startmenu). Unter Linux sollte dieses Problem nicht auftauchen.*
 
+Falls Sie diesen Schritt erfolgreich durchgeführt haben, steht Ihnen nun die Jupyter Notebooks Umgebung auf Ihrem Computer zur Verfügung. 
 
 ### Starten von Jupyter Notebooks
 
-Um Jupyter notebook server zu starten, geben sie folgenden Befehl ein
+Bevor Sie die Jupyter Notebooks verwenden können müssen Sie diese noch starten. 
+Dazu geben sie folgenden Befehl ein
 ```
 docker run -p 8888:8888 -it marcelluethi/programmieren-notebooks:1.3
 ```
