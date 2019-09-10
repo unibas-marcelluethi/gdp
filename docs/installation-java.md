@@ -1,4 +1,4 @@
-# Installation vom Java Development Kit
+# Installation des Java Development Kits
 
 Um Java Programme kompilieren und ausführen zu können, müssen Sie auf Ihrem Computer das Java Development Kit (JDK) installieren. 
 Es gibt verschiedene Versionen des JDKs, die zum Teil auch von unterschiedlichen Organisationen angeboten und gepflegt werden.
