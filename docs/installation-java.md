@@ -12,7 +12,7 @@ Im folgenden führen wir Sie durch die wichtigsten Schritte die Sie durchführen
 
 #### Download
 
-Wenn sie auf die Seite[AdoptOpenJDK](https://adoptopenjdk.net) müssen Sie als erstes die Version vom JDK wählen. Wählen Sie hier *OpenJDK 11* und *Hotspot*. 
+Nachdem Sie auf die Seite [AdoptOpenJDK](https://adoptopenjdk.net) gelangt sind, müssen Sie als erstes die Version vom JDK wählen. Wählen Sie hier *OpenJDK 11* und *Hotspot*. 
 
 ![jdk-version](./images-jdk/choosejdk.png)
 
@@ -26,11 +26,11 @@ Als nächstes müssen Sie noch wählen, ob sie nur die Runtime (JRE) oder das ga
 
 Nachdem Sie den Installer heruntergeladen haben, führen Sie diesen aus und folgen den einzelnen Schritten. 
 
-Im Schritt *Benutzerdefiniertes Setup* wählen Sie, dass die Variable *JAVA_HOME* entsprechend gesetzt wird, wie im Screenshot dargestellt.
+Im Schritt *Benutzerdefiniertes Setup* wählen Sie aus, dass die Variable *JAVA_HOME* gesetzt wird:
 
 ![jdk-installer](./images-jdk/jdk-installer.png)
 
-Nachdem Sie das JDK installiert haben, öffnen Sie eine Konsole (durch rücken der Windows Taste und eingabe von ```cmd```) und geben dann folgendes ein:
+Nachdem Sie das JDK installiert haben, öffnen Sie eine Konsole (durch Drücken der Windows Taste und Eingabe von ```cmd```). Geben Sie dann folgendes ein um zu sehen, ob Java erfolgreich installiert wurde:
 
 ```
 java -version
@@ -38,5 +38,3 @@ java -version
 
 Falls die Installation funktioniert hat, sollten Sie folgende Meldung sehen:
 ![java-version](./images-jdk/java-version.png)
-
-Sie haben damit das JDK erfolgreich installiert, und können nun mit dem Programmieren beginnen. 
