@@ -28,10 +28,10 @@ Die zweite Variante, die Nutzung von Docker, ist deutlich schlanker. Wir empfehl
 1. Gehen Sie auf die [Downloadseite](https://www.virtualbox.org/wiki/Downloads) von Oracle Virtualbox 
 2. Wählen Sie unter *VirtualBox 6.0.12 platform packages* das Ihrem Betriebssystem entsprechende Paket und installieren Sie dieses. 
     * (Falls nötig finden Sie weitere Details und Screenshots zur Installation von Virtualbox in dieser [Anleitung](https://www.wikihow.com/Install-VirtualBox))
-3. Laden Sie die Virtuelle Maschine mit den Jupyter-Notebooks von [hier](https://drive.switch.ch/index.php/s/QmgaWTug9bYbAz4) herunter. 
+3. Laden Sie die Virtuelle Maschine mit den Jupyter-Notebooks von [hier](https://drive.switch.ch/index.php/s/sOI4gedaJ9cue1v) herunter. 
 4. Starten Sie nun Virtualbox. Sie sollten folgendes Fenster sehen ![vbox-startup](./images/vbox-start.png)
 5. Importieren Sie die in Schritt 3 heruntergeladene Datei indem Sie ```Datei->Appliance importieren``` wählen, und die entsprechende Datei im Dialogfenster auswählen. Drücken Sie ```Weiter``` und wählen Sie ```Importieren``` auf der nächsten Seite. 
-6. Starten Sie die Virtuelle Machine indem Sie diese in der Liste auf der Linken Seite die soeben importierte Maschine auswählen und den Startbutton drücken.
+6. Starten Sie die Virtuelle Machine indem Sie diese in der Liste auf der linken Seite die soeben importierte Maschine auswählen und den Startbutton drücken.
 
 ![jupyter](images/vbox-selection.png)
 
