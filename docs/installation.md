@@ -39,7 +39,7 @@ Herzliche Gratulation! Die Installation ist hiermit abgeschlossen und Sie könne
 
 
 ### 1.1 Starten von Jupyter Notebooks
-Starten Sie den Firefox Browser. In der Toolbar sollten Sie den Button *Jupyter-notebooks* sehen. Dieser bringt Sie direkt zu den Notebooks. 
+In der von Ihnen gestarteten Virtuellen Maschine finden Sie den Firefox Browser. Starten Sie diesen. In der Toolbar sollten Sie den Button *Jupyter-notebooks* sehen. Dieser bringt Sie direkt zu den Notebooks. 
 
 *Wichtig! Nach langer Inaktivität wird der Screen der Virtuellen Machine gesperrt und sie werden nach dem Passwort gefragt. Der Benutzername für die Virtualbox ist ```jupyter``` und das Passwort ```notebook```.*
 
