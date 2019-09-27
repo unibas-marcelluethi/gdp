@@ -2,11 +2,11 @@
 
 ## Allgemeine Fragen
 
-### Kann ich  einfach die Online Version von Jupyter-notebooks nutzen?
+### Kann ich  einfach die Cloud Version von Jupyter-notebooks nutzen?
 
-Die Online Version kann als Ersatz für eine lokale Installation verwendet werden, wenn die lokale Installation nicht möglich war oder zu Problemen mit dem System führt. Beachten Sie aber, dass ihre Änderungen nicht gespeichert werden und beim Schliessen des Browsers verlorengehen. Sie können Ihre Änderung aber speichern, indem Sie das Notebook herunterladen und beim nächsten Start wieder hochladen. 
+Die Cloud Version kann als Ersatz für eine lokale Installation verwendet werden, wenn die lokale Installation nicht möglich war oder zu Problemen mit dem System führt. Beachten Sie aber, dass ihre Änderungen nicht gespeichert werden und beim Schliessen des Browsers verlorengehen. Sie können Ihre Änderung aber speichern, indem Sie das Notebook herunterladen und beim nächsten Start wieder hochladen. 
 
-Die Online Version können Sie via [bit.ly/jupyterjava](bit.ly/jupyterjava) oder über den Link auf der [Vorlesungsseite](https://dmi.unibas.ch/de/studium/computer-science-informatik/lehrangebot-hs19/vorlesung-grundlagen-der-programmierung/) starten. 
+Die Cloud Version können Sie via [bit.ly/jupyterjava](bit.ly/jupyterjava) oder über den Link auf der [Vorlesungsseite](https://dmi.unibas.ch/de/studium/computer-science-informatik/lehrangebot-hs19/vorlesung-grundlagen-der-programmierung/) starten. 
 
 
 ### Beim Öffnen eines Notebooks kommt die Fehlermeldung, dass das Notebook nicht geöffnet werden konnte. 
@@ -49,6 +49,7 @@ Unter System können Sie der Virtuellen Maschine dann mehr Hauptspeicher und auc
 Verfahren Sie wie in der vorigen Frage, aber reduzieren Sie den Hauptspeicher, der der Maschine zugeordnet ist. 
 
 Wenn Sie Wert auf ein schnelles und Ressourcenschonendes System legen, empfehlen wir Ihnen stattdessen Docker zu verwenden. 
+Wenn auch das nicht funktioniert, nutzen Sie bitte unsere [Cloud Lösung](https://bit.ly/jupyterjava).
 
 
 ## Docker 
