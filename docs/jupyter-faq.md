@@ -27,6 +27,11 @@ Das Passwort ist *notebook*.
 ### Ich habe Virtualbox installiert, kann aber die Virtuelle Maschine nicht starten
 Wahrscheinlich ist in ihrem Bios die Virtualisierungsunterstützung (VT-X) nicht aktiviert. Wie sie diese aktivieren ist in diesem [Artikel](https://www.tactig.com/enable-intel-vt-x-amd-virtualization-pc-vmware-virtualbox/) gut beschrieben.
 
+### Mein Jupyternotebooks führen den Java Code nicht mehr aus
+
+Versuchen Sie die Virtuelle Maschine neu zu starten. 
+
+
 ### Wie kann ich das Tastaturlayout in der Virtualbox umstellen?
 
 Starten Sie die Virtuelle Maschine und gehen Sie auf Activities (oben Links) und tippen Sie *region* wie im Screenshot dargestellt
@@ -54,4 +59,10 @@ Wenn auch das nicht funktioniert, nutzen Sie bitte unsere [Cloud Lösung](https:
 
 ## Docker 
 
-Es sind noch keine Dockerspezifischen Fragen oder Probleme aufgetaucht. 
+### Mein Jupyter-notebook führen den Java Code nicht mehr aus
+
+Starten Sie den Docker Container neu indem Sie folgenden Befehl aufrufen:
+
+```
+> docker restart jupyter-java
+```
