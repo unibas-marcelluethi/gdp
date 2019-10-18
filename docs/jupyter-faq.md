@@ -29,7 +29,10 @@ Wahrscheinlich ist in ihrem Bios die Virtualisierungsunterstützung (VT-X) nicht
 
 ### Mein Jupyternotebooks führen den Java Code nicht mehr aus
 
-Versuchen Sie die Virtuelle Maschine neu zu starten. 
+Versuchen Sie zuerst innerhalb des Notebooks den Jupyter Kernel neu zu starten wie im Bild gezeigt. 
+![kernel-restart](images/jupyter-restart-kernel.png)
+
+Falls dies nichts nützt schalten Sie die Virtuelle Maschine aus und starten diese neu.
 
 
 ### Wie kann ich das Tastaturlayout in der Virtualbox umstellen?
@@ -59,9 +62,12 @@ Wenn auch das nicht funktioniert, nutzen Sie bitte unsere [Cloud Lösung](https:
 
 ## Docker 
 
-### Mein Jupyter-notebook führen den Java Code nicht mehr aus
+### Mein Jupyter-notebook führen den Java Code nicht mehr aus 
 
-Starten Sie den Docker Container neu indem Sie folgenden Befehl aufrufen:
+Versuchen Sie zuerst innerhalb des Notebooks den Jupyter Kernel neu zu starten wie im Bild gezeigt. 
+![kernel-restart](images/jupyter-restart-kernel.png)
+
+Falls dies nicht hilft starten Sie den Docker Container neu indem Sie folgenden Befehl aufrufen:
 
 ```
 > docker restart jupyter-java
