@@ -19,6 +19,9 @@ RUN unzip ijava-kernel.zip -d ijava-kernel \
   && cd ijava-kernel \
   && python3 install.py --sys-prefix
 
+# Setup RISE
+RUN pip3 install RISE
+
 # Set up the user environment
 
 ENV NB_USER jovyan
@@ -33,6 +36,7 @@ RUN adduser --disabled-password \
 COPY . $HOME
 RUN chown -R $NB_UID $HOME
 RUN echo "$NB_USER ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
 
 USER $NB_USER
 
