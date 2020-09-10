@@ -8,7 +8,7 @@ title : Übersicht
 
 # Test der Jupyter Installation
 
-An dieser Stelle sollten Sie Juyter-Notebooks und den BeakerX Kern installiert haben. Falls dies noch nicht der Fall ist, führen Sie bitte die Schritte in der [Installationsanleitung](installation-guide) durch und starten Sie die Notebook Umgebung wie dort beschrieben.
+An dieser Stelle sollten Sie Juyter-Notebooks und den BeakerX Kern installiert haben. Falls dies noch nicht der Fall ist, führen Sie bitte die Schritte in der [Installationsanleitung](installation-jupyter) durch und starten Sie die Notebook Umgebung wie dort beschrieben.
 
 Sie sollten nun die Jupyter-Umgebung in ihrem Webbrowser sehen:
 ![notebook-tree](images/jupyter-tree.png).
@@ -16,9 +16,9 @@ Sie sollten nun die Jupyter-Umgebung in ihrem Webbrowser sehen:
 Erzeugen Sie nun ein neues Jupyter-Notebook indem sie Rechts auf den *New* Button drücken und Java auswählen
 ![notebook-new](images/jupyter-new.png)
 
-*Sollten Sie keinen Eintrag Java finden bedeutet dies, dass der BeakerX Kern nicht korrekt installiert wurde. Gehen Sie in diesem Fall nochmals zurück auf die [Installationsanleitung](installation-guide) oder Fragen Sie ihre Tutor(in) um Hilfe*. 
+*Sollten Sie keinen Eintrag Java finden bedeutet dies, dass der BeakerX Kern nicht korrekt installiert wurde. Gehen Sie in diesem Fall nochmals zurück auf die [Installationsanleitung](installation-jupyter). Wie erwähnt können Sie Fragen im Forum auf Adam stellen oder Ihre(n) Tutor(in) um Hilfe bitten*. 
 
-Nun öffnet sich ein Java Notebook. Geben Sie in die erste Zeile das Java Kommand ```System.out.println("hello world");``` ein, genau wie Sie es in folgendem Screenshot sehen. 
+Nun öffnet sich ein Java Notebook. Geben Sie in die erste Zeile das Java Kommando ```System.out.println("hello world");``` ein, genau wie Sie es in folgendem Screenshot sehen. 
 ![jupyter-hello](images/notebook-hello.png)
 
 Wenn Sie dann auf ```Run``` drücken (im Screenshot Gelb markiert) sollten Sie folgende Ausgabe sehen:

@@ -14,27 +14,38 @@ Um in Jupyter-Notebooks Java programmieren zu können, brauchen wir drei Program
 2. Die [Jupyter-Notebook](https://jupyter.org/) Umgebung
 3. den [BeakerX](http://beakerx.com/) Kern um Java Programme in Jupyter-Notebooks ausführen zu können. 
 
-Eine Installationsanleitung für das Java Development Kit finden Sie hier:
+Im Folgenden beschreiben wir diese Installationsschritte im Detail. 
+
+*Sollte etwas unklar sein oder auf ihrem System nicht funktionieren, können 
+Sie im [Forum](https://adam.unibas.ch/goto_adam_frm_1024469.html) auf Adam Fragen stellen. In der Woche vom 21 - 25. September werden wir zusätzlich
+Installationsupport in den Übungsstunden der "Erweiterten Grundlagen der Programmierung" anbieten. Sie können diesen Support auch in Anspruch nehmen, wenn Sie nur die
+"Grundlagen der Programmierung" besuchen.*
+
+## Installation des Java Development Kits 
+
+Im ersten Schritt müssen Sie das Java Development Kit (JDK) installieren. Da das auch JDK unabhängig von Jupyter-Notebooks benötigt wird, finden Sie die Anleitung in einem separaten Dokument:
+
 * [Installationsanleitung Java Development Kit](installation-jdk)
+
 Bitte führen Sie diese Installation als erstes durch.
 
-Wenn Sie java erfolgreich installiert haben, können Sie nun die Jupyter-Notebook Umgebung 
+Wenn Sie java erfolgreich installiert haben, können Sie nun die Jupyter-Notebook Umgebung installieren.
 
 ## Installation von Jupyter-Notebooks 
 
-Am einfachsten geht die Installation mit der Anaconda Distribution. Diese stellt uns eine komfortable Installationsumgebung zur Verfügung, mit der wir einach alle benötigten Komponenten installieren können. 
+Am einfachsten geht die Installation mit der [Anaconda Distribution](https://www.anaconda.com/). Diese stellt eine komfortable Installationsumgebung zur Verfügung, mit der wir alle benötigten Komponenten mit wenigen Befehlen installieren können. 
 Die Anaconda Distribution gibt es für die Betriebssysteme Windows, Linux und MacOS.
 
-Im folgenden Beschreiben wir wie sie diese Komponenten mit Anaconda auf dem jeweiligen Betriebssystem installieren. Weitere Details und alternative Varianten zur Installation finden Sie auf der Webpage von [Jupyter](https://jupyter.org).
+*Es gibt viele weitere Möglichkeiten wie Sie Jupyter-Notebooks installieren können. Details zu alternativen Verfahrenfinden Sie auf der Webpage von [Jupyter](https://jupyter.org) und [BeakerX](https:///beakerx.com/). Beachten Sie, dass wir aber nur Support für die von uns beschriebene Installationsvariante geben können.*
 
 
 ### Windows 
 
-Laden Sie das graphische Installationsprogramm von dieser Seite (https://www.anaconda.com/products/individual) herunter. Der Download Link befindet sich fast am Ende der Seite.
+Laden Sie das graphische Installationsprogramm von [dieser Seite](https://www.anaconda.com/products/individual) herunter. Der Download Link befindet sich fast am Ende der Seite.
 
 Führen Sie das Installationsprogramm aus und folgen Sie den Instruktionen.
 Wenn Sie zu folgendem Dialog kommen, aktivieren Sie (trotz Warnung) die Option *Add Anaconda3 to my PATH environment variable*:
-![anaconda-windows-path](images/anaconda-windows-environment)
+![anaconda-windows-path](images/anaconda-windows-environment.png)
 
 Danach führen Sie die Installation wie vorgesehen durch. 
 
@@ -86,3 +97,4 @@ jupyter-notebook
 Es sollte sich nun ein Browser-Fenster öffnen, welches etwa wie folgt aussieht:
 ![jupyter-tree](images/jupyter-tree.png)
 
+Im nächsten Schritt können Sie nun testen ob alles funktioniert. Folgen Sie dazu den Schritten in [dieser Anleitung](installation-test).
