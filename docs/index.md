@@ -9,6 +9,6 @@ title : Übersicht
 # Grundlagen der Programmieren - Jupyter Notebooks
 
 Diese Seite enthält links und Informationen zu den Jupyter-Notebooks. 
-
-* [Installationsanleitung](installationsanleitung-beakerx)
-* [Kopieren der Notebooks in die Jupyter-Umgebung](notebook-upload)
+* [Installation Java Development Kits (JDK)](installation-jdk)
+* [Installation Jupyter-Notebooks](installation-jupyter)
+* [Testen der Installation](installation-test)

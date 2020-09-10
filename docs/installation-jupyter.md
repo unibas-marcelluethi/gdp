@@ -85,3 +85,4 @@ jupyter-notebook
 
 Es sollte sich nun ein Browser-Fenster öffnen, welches etwa wie folgt aussieht:
 ![jupyter-tree](images/jupyter-tree.png)
+
