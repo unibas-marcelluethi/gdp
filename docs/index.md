@@ -8,7 +8,8 @@ title : Übersicht
  
 # Grundlagen der Programmieren - Jupyter Notebooks
 
-Diese Seite enthält links und Informationen zu den Jupyter-Notebooks. 
+In dieser Vorlesung arbeiten wir viel mit Jupyter-Notebooks. Die folgenden Seiten beschreiben die Schritte die Sie ausführen müssen um diese zu installieren. 
+
 * [Installation Java Development Kits (JDK)](installation-jdk)
 * [Installation Jupyter-Notebooks](installation-jupyter)
 * [Testen der Installation](installation-test)
