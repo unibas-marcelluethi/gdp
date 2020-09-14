@@ -13,3 +13,9 @@ In dieser Vorlesung arbeiten wir viel mit Jupyter-Notebooks. Die folgenden Seite
 * [Installation Java Development Kits (JDK)](installation-jdk)
 * [Installation Jupyter-Notebooks](installation-jupyter)
 * [Testen der Installation](installation-test)
+
+
+*Sollte etwas unklar sein oder auf ihrem System nicht funktionieren, können 
+Sie im [Forum](https://adam.unibas.ch/goto_adam_frm_1024469.html) auf Adam Fragen stellen. In der Woche vom 21 - 25. September werden wir zusätzlich
+Installationsupport in den Übungsstunden der "Erweiterten Grundlagen der Programmierung" anbieten. Sie können diesen Support auch in Anspruch nehmen, wenn Sie nur die
+"Grundlagen der Programmierung" besuchen.*
