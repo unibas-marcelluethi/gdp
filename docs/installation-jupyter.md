@@ -98,3 +98,9 @@ Es sollte sich nun ein Browser-Fenster öffnen, welches etwa wie folgt aussieht:
 ![jupyter-tree](images/jupyter-tree.png)
 
 Im nächsten Schritt können Sie nun testen ob alles funktioniert. Folgen Sie dazu den Schritten in [dieser Anleitung](installation-test).
+
+*Anmerkung: Unter Windows erscheint eventuell das folgende Fenster wenn Sie die Notebookumgebung das erste mal starten:*
+
+![firewall](images/firewall.png)
+
+*Sie können hier* Zugriff zulassen *wählen. Danach sollten Jupyter-Notebooks normal starten.*
