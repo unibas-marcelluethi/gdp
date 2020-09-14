@@ -57,8 +57,11 @@ Falls die Installation funktioniert hat, sollten Sie folgende Meldung sehen:
 ## Installation unter Linux
 
 Unter Linux haben Sie im vorigen Schritt kein graphisches Installationsprogramm sondern ein tar.gz Archiv (mit einem Namen  wie ```OpenJDK11U-jdk_x64_linux_hotspot_11.0.8_10.tar.gz```) heruntergeladen.  
-Entpacken Sie dieses Archiv. Sie finden darin einen Ordner mit dem Namen ```jdk-11.0.8+10```. Kopieren Sie diesen an eine von Ihnen gewählte Stelle, wie zum Beispiel ihr Home-Verzeichnis. Wir nehmen an, dass Sie dieses in ihrem Home-Verzeichnis entpackt haben. Nun müssen wir noch die Umgebungsvariablen ```PATH``` und ```JAVA_HOME``` setzen, damit ihre Java Installation auch gefunden wird. Dazu öffnen Sie die Datei
-```~/.bashrc``` mit einem Editor und fügen die Orange markierten Einträge am Ende der Datei hinzu
+Entpacken Sie dieses Archiv. Sie finden darin einen Ordner mit dem Namen ```jdk-11.0.8+10```. Kopieren Sie diesen an eine von Ihnen gewählte Stelle, wie zum Beispiel ihr Home-Verzeichnis. Im Folgenden nehmen wir an, dass Sie dieses in ihrem Home-Verzeichnis entpackt haben. Nun müssen wir noch die Umgebungsvariablen ```PATH``` und ```JAVA_HOME``` setzen, damit ihre Java Installation auch gefunden wird. Dazu öffnen Sie die Datei
+```~/.bashrc``` mit einem Editor und fügen  
+```export PATH=$PATH:~/jdk-11.0.8+10/bin```   
+```export JAVA_HOME=~/jdk-11.0.8+10```  
+(die im Screenshot orange markierten Einträge) am Ende der Datei hinzu.
 
 ![HOME_AND_PATH](images/java-environment-linux.png)
 

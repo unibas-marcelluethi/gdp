@@ -23,7 +23,7 @@ Installationsupport in den Übungsstunden der "Erweiterten Grundlagen der Progra
 
 ## Installation des Java Development Kits 
 
-Im ersten Schritt müssen Sie das Java Development Kit (JDK) installieren. Da das auch JDK unabhängig von Jupyter-Notebooks benötigt wird, finden Sie die Anleitung in einem separaten Dokument:
+Im ersten Schritt müssen Sie das Java Development Kit (JDK) installieren. Da das JDK auch unabhängig von Jupyter-Notebooks benötigt wird, finden Sie die Anleitung in einem separaten Dokument:
 
 * [Installationsanleitung Java Development Kit](installation-jdk)
 
@@ -50,7 +50,7 @@ Wenn Sie zu folgendem Dialog kommen, aktivieren Sie (trotz Warnung) die Option *
 Danach führen Sie die Installation wie vorgesehen durch. 
 
 ### MacOS
-Laden Sie das graphische Installationsprogramm von dieser Seite (https://www.anaconda.com/products/individual) herunter. Der Download Link befindet sich fast am Ende der Seite.
+Laden Sie das graphische Installationsprogramm von [dieser Seite](https://www.anaconda.com/products/individual) herunter. Der Download Link befindet sich fast am Ende der Seite.
 
 Führen Sie das Installationsprogramm aus und folgen Sie den Instruktionen.
 Sie können alle Voreingestellten Einstellungen direkt übernehmen.
