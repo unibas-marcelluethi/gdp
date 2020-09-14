@@ -76,7 +76,7 @@ Folgen Sie nun den Anweisungen des Installationsprogramms. Akzeptieren Sie die a
 
 ## Installation von BeakerX
 Als nächstes müssen wir noch BeakerX installieren. 
-Öffen Sie dazu ein *neues* Terminal. Unter Windows machen Sie dies indem Sie die Windows-Taste drücken und ```cmd``` eingeben. In MacOS, indem Sie in Spotlight ```terminal``` eingeben.
+*Dazu müssen Sie ein **neues** Terminal öffnen.* Unter Windows machen Sie dies indem Sie die Windows-Taste drücken und ```cmd``` eingeben. In MacOS, indem Sie in Spotlight ```terminal``` eingeben.
 
 
 Geben Sie nun folgende Befehl ein um BeakerX zu installieren:
