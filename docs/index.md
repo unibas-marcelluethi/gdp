@@ -5,17 +5,17 @@
 layout: default
 title : Übersicht
 ---
- 
-# Grundlagen der Programmieren - Jupyter Notebooks
 
-In dieser Vorlesung arbeiten wir viel mit Jupyter-Notebooks. Die folgenden Seiten beschreiben die Schritte die Sie ausführen müssen um diese zu installieren. 
+# Grundlagen der Programmieren - Installation der benötigten Software
+
+Auf dieser Seite finden Sie kurze Anleitungen, die Ihnen helfen sollen, die in dieser Vorlesung benötigte Software zu Installieren.
 
 * [Installation Java Development Kits (JDK)](installation-jdk)
-* [Installation Jupyter-Notebooks](installation-jupyter)
-* [Testen der Installation](installation-test)
+* [Installation VSCode](vscode)
+
+Hier noch einige Tips und Links um Ihnen die Arbeit mit der Kommandozeile etwas zu erleichtern:
+
+* [Arbeiten mit der Kommandozeile](commandline)
 
 
-*Sollte etwas unklar sein oder auf ihrem System nicht funktionieren, können 
-Sie im [Forum](https://adam.unibas.ch/goto_adam_frm_1024469.html) auf Adam Fragen stellen. In der Woche vom 21 - 25. September werden wir zusätzlich
-Installationsupport in den Übungsstunden der "Erweiterten Grundlagen der Programmierung" anbieten. Sie können diesen Support auch in Anspruch nehmen, wenn Sie nur die
-"Grundlagen der Programmierung" besuchen.*
+*Sollte etwas unklar sein oder auf ihrem System nicht funktionieren, fragen Sie in der Übungsstunde den zuständigen Tutor.*

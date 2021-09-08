@@ -15,7 +15,7 @@ Visual Studio Code (VS Code oder auch einfach Code genannt) ist ein auf den erst
 
 Laden Sie bitte den entsprechenden Installer für Ihr System von der [VSCode Download Website](https://code.visualstudio.com/Download) und installieren Sie VSCode entsprechend der Installationsanleitung oder folgen Sie den Anweisung des Installers.
 
-![VS Code Download Page](./code-download-page.png)
+![VS Code Download Page](./images/code-download-page.png)
 
 
 ## Vorbereiten das Entwickeln mit Java
