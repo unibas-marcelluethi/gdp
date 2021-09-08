@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
 
-title: Grundlagen der Programmierung - HS 2020
+title: Grundlagen der Programmierung - HS 2021
 
 includes_dir     : ./_includes
 layouts_dir:  ./_layouts
